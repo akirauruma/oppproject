@@ -2,12 +2,12 @@
 
 ## Участники проекта:
 
-    + DevOps: Тернолуцкий Виктор
-    + Coder: Ярослав Егоров
-    + Tester: Владислав Лапынин
+* DevOps: Тернолуцкий Виктор
+* Coder: Ярослав Егоров
+* Tester: Владислав Лапынин
 # Ветки 
-    + main - основная ветка
-    + dev - главная ветка
-    + test для тестирования 
+* main - основная ветка
+* dev - главная ветка
+* test для тестирования 
     
 [![C/C++ CI](https://github.com/change-and-live/studentsDataBase/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/akirauruma/plsiwantgraduateimbeggingforreal/blob/main/.github/workflows/c-cpp.yml)
