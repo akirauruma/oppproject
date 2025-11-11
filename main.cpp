@@ -163,7 +163,7 @@ void runComprehensiveAnalysis() {
     saveResultsToCSV(sizes, all_speedups);
     std::cout << "\nResults saved to 'speedup_results.csv'\n";
 }
-
+#ifdef DEMO
 int main() {
     auto start_time = std::chrono::high_resolution_clock::now();
     
@@ -174,6 +174,6 @@ int main() {
     
     std::cout << "\nTotal execution time: " << total_time.count() << " seconds\n";
     std::cout << "Available hardware threads: " << std::thread::hardware_concurrency() << "\n";
-    
     return 0;
 }
+#endif
